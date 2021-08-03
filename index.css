@@ -16,6 +16,14 @@ display: block;
   margin: auto;
   font-family: "Roboto", sans-serif;
 }
+.container{
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+/*HEADER*/
 .header{
   position: fixed;
   width: 100%;
@@ -29,13 +37,7 @@ display: block;
   margin: auto;
   box-shadow: 0px 0px 16px rgb(38 38 38 / 16%);
 }
-.container{
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 8px;
-  padding-left: 8px;
-}
+
 .header__body{
   display: flex;
   height: 72px;
@@ -69,6 +71,8 @@ display: block;
   width: 19px;
   height: 22px;
 }
+/*HEADER*/
+/*SEARCH*/
 .search{
   margin: 128px auto 0;
   height: 24px;
@@ -91,20 +95,66 @@ display: block;
   color: #626262;
   opacity: 0.5;
 }
-.h1__form{
+/*SEARCH*/
+/*REST*/
+.rest{
+  margin-top:56px;
+}
+.container title{
   font-size: 22px;
-  margin: 56px auto 0;
+}
+.between-xs {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top:16px;
+}
+.col-xs-12 {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+.row {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-left: -8px;
 }
 
-.picture__form {
-  width: 308px;
-  height: 366px;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
+.rest .card {
+  padding: 0;
+  margin: 0;
+  transition: transform 0.1s linear;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  
 }
-.box img{
- 
-  width: 308px;
-  height: 256px;
+.card title{
+  margin-top:16px;
+  font-size: 16px;
 }
+.rest .card-image img {
+  width: 100%;
+  height: auto;
+}
+.card title1{
+  
+  font-size: 14px;
+}
+.card title2{
+  
+  font-size: 13px;
+}
+/*REST*/
