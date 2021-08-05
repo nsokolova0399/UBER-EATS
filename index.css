@@ -168,7 +168,12 @@ display: block;
   background: #262626;
   width: 100%;
   color:#fff;
-  height: 552px;;
+  height: 552px;
+}
+.footer img{
+  margin-top: 62px;
+  width: 190.77px;
+  height: 19.69px;
 }
 .footer .container hr {
   background: #FFFFFF;
