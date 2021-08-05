@@ -168,10 +168,11 @@ display: block;
   background: #262626;
   width: 100%;
   color:#fff;
-  height: 552px;
+  height: 552px;;
 }
-.footer img{
+.footer__header img{
   margin-top: 62px;
+  padding-left: 10px;
   width: 190.77px;
   height: 19.69px;
 }
@@ -194,36 +195,104 @@ display: block;
   border-style: inset;
   border-width: 1px;
 }
-.option {
+.footer__menu {
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #979797;
+}
+.footer__select-item {
+  background-color: #3b3b3b;
+  color: #fff;
+  font-size: 13px;
+  padding: 12px 128px 12px 48px;
+  background-image: url('world.png');
+  background-size: 15.72px auto;
+  background-repeat: no-repeat;
+  background-position: 7% center;
+  margin-bottom: 20px;
+}
+
+select {
+  
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  cursor: default;
+  font: 400 13.3333px Arial;
+}
+option {
   font-weight: normal;
   display: block;
   white-space: nowrap;
   min-height: 1.2em;
-.lang {
+  padding: 0px 2px 1px;
+}
+
+
+
+.search__link {
+  color: #fff;
+  text-decoration: none;
+}
+.search__link-sharp {
+  color: #49A144;
+  margin-bottom: 17px;
+}
+.p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.footer__link-facebook {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 0;
+  background-image: url('facebook.png');
+  background-size: 24px auto;
+}
+.footer__link-twitter {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 0;
+  background-image: url('twitter.png');
+  background-size: 24px auto;
+}
+.footer__link-instagram {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 0;
+  background-image: url('instagram.png');
+  background-size: 24px auto;
+}
+.footer__play{
+  margin-top: 40px;
+}
+.App_Store{
+  display: block;
+  width:120.66px;
   height: 40px;
-  width: 100%;
-  background: #3B3B3B;
-  border-radius: 2px;
-  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
-.lang img {
-  padding: 12px 16px 12px 16px;
-}
-.select {
-  width: 70%;
-  outline: none;
-  position: relative;
-  bottom: 14px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font: 13px Roboto, sans-serif;
-  color: white;
-  border: none;
-  background-color: #3B3B3B;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url(../img/arrow.svg) 96% / 8% no-repeat #3B3B3B;
+.Google_play{
+  display: block;
+  width:135px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 /*FOOTER*/
-
