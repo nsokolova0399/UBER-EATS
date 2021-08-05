@@ -170,11 +170,6 @@ display: block;
   color:#fff;
   height: 552px;;
 }
-.footer img{
-  margin-top: 62px;
-  width: 190.77px;
-  height: 19.69px;
-}
 .footer .container hr {
   background: #FFFFFF;
   mix-blend-mode: normal;
@@ -199,8 +194,6 @@ display: block;
   display: block;
   white-space: nowrap;
   min-height: 1.2em;
-  padding: 0px 2px 1px;
-}
 .lang {
   height: 40px;
   width: 100%;
