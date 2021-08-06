@@ -283,7 +283,8 @@ option {
 .App_Store{
   display: block;
   width:120.66px;
-  height: 400px;
+  height: 40px;
+  margin-left:400px;
   
 }
 .Google_play{
