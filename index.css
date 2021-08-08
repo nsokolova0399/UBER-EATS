@@ -1,312 +1,366 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Uber Eats</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
-    />
-    <link rel="stylesheet" href="index.css" />
-  </head>
-
-  <body>
-
-  <!--HEADER-->
-  <header  class="header">
-   <div class="header__content">
-     <div class="container">
-       <div class="header__body">
-         <div class="header__logo">
-            <img href="#" src="logo.png" alt="Лготип">
-         </div>
-         <div class="header__items">
-             <div class="header__sign-in">
-              <a href="#">
-                <img src="sign-in.png" alt="sign-in">
-              </a>
-             </div>
-             <div class="header__basket d-none d-lg-block d-md-block d-sm-none">
-               <a href="#">
-                 <img src="basket.png" alt="basket">
-               </a>
-             </div>
-         </div>
-       </div>
-     </div>
-   </div>
-  </header>
-  <!--HEADER-->
-  <!--MAIN-->
-  <!--SEARCH-->
-  <div class="search">
-    <div class="container">
-      <div class="search__form">
-        <input class="form-control" type="text" placeholder="Поиск по ресторанам и кухням">
-      </div>
-    </div>
-  </div>
-<!--SEARCH-->
-<!--REST-->
-  <div  class="rest">
-    <div class="container">
-      <div class="title__rest"> Рестораны в Москве</div>
-      
-         <div class="row">
-          <div class="container">
-             <div class="row between-xs">
-               <div class="col-lg-4 col-md-6 col-sm-12">
-                 <a href="index1.html" target="_blank" style=" text-decoration: none;">
-                   <div class="card">
-                     <div class="card-image">
-                       <img src="photo1.png" alt="Макдоналдс - Газетный">
-                     </div>
-                     <div class='title'>Макдоналдс — Газетный</div>
-                     <div class='title1'>₽₽ • Бургеры</div>
-                     <div class='title2'>25 - 35 Min</div>
-                   </div>
-                 </a>
-               </div>
-
-               <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="index1.html" target="_blank" style=" text-decoration: none;">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="photo2.png" alt="DimSum & Co — ЦДМ">
-                    </div>
-                    <div class='title'>DimSum & Co — ЦДМ</div>
-                    <div class='title1'>₽ • Японская • Китайская • Азиатская</div>
-                    <div class='title2'>40 - 50 мин</div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="index1.html" target="_blank" style=" text-decoration: none;">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="photo3.png" alt="ДвижОК — Манежная">
-                    </div>
-                    <div class='title'>ДвижОК — Манежная</div>
-                    <div class='title1'>₽ • Американская • Европейская</div>
-                    <div class='title2'>35 - 45 мин</div>
-                  </div>
-                </a>
-              </div>
-               
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="index1.html" target="_blank" style=" text-decoration: none;">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="photo4.png" alt="НЯ — NHA">
-                    </div>
-                    <div class='title'>НЯ — NHA</div>
-                    <div class='title1'>₽₽ • Вьетнамская</div>
-                    <div class='title2'>30 - 40 мин</div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="index1.html" target="_blank" style=" text-decoration: none;">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="photo5.png" alt="Точка Дзы — Цветной">
-                    </div>
-                    <div class='title'>Точка Дзы — Цветной</div>
-                    <div class='title1'>₽₽ • Вьетнамская</div>
-                    <div class='title2'>40 - 50 мин</div>
-                  </div>
-                </a>
-              </div>
-
-
-
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="index1.html" target="_blank" style=" text-decoration: none;">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="photo6.png" alt="Cinnabon">
-                    </div>
-                    <div class='title'>Cinnabon</div>
-                    <div class='title1'>₽ • Выпечка • Десерты • Капкейки </div>
-                    <div class='title2'>25 - 35 мин</div>
-                  </div>
-                </a>
-              </div>
-               
-               <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="index1.html" target="_blank" style=" text-decoration: none;">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="photo7.png" alt="PIZZELOVE">
-                    </div>
-                    <div class='title'>PIZZELOVE</div>
-                    <div class='title1'>₽₽ • Пицца </div>
-                    <div class='title2'>15 - 25 мин</div>
-                  </div>
-                </a>
-              </div>
-
-               <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="index1.html" target="_blank" style=" text-decoration: none;">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="photo8.png" alt="Zю кафе  — Тверская">
-                    </div>
-                    <div class='title'>Zю кафе  — Тверская</div>
-                    <div class='title1'>₽₽ • Японская </div>
-                    <div class='title2'>25 - 35 мин</div>
-                  </div>
-                </a>
-              </div>
-               
-               
-               <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="index1.html" target="_blank" style=" text-decoration: none;">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="photo9.png" alt="Bar BQ Cafe — Манежная">
-                    </div>
-                    <div class='title'>Bar BQ Cafe — Манежная</div>
-                    <div class='title1'>₽₽₽ • Европейская </div>
-                    <div class='title2'>30 - 40 мин</div>
-                  </div>
-                </a>
-              </div>
-
-             </div>
-          </div>
-         </div>
-       
-    </div>
-  </div>
-  <!--REST-->
-  <!--FOOTER-->
-
-    <div class="footer">
-      
-    <div class="container">
-      <div class="row footer__header">
-        <a href="#"  target="_self">
-      <img  src="logo1.png" alt ="UBER EATS">
-</a>
-      </div>
-      <hr>
-      <div class="row footer__menu">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <p class="footer__select">
-            <select class="footer__select-item" name="select">
-              <option class="lang__item" value="Russian">Русский</option>
-              <option class="lang__item" value="English">English</option>
-            </select>
-          </p>
-          <p><a class="search__link" href="https://yandex.ru/search/?text=%23%20UberEats" target="_blank">
-            <span class="search__link-sharp">#</span>
-            <span>UberEats</span>
-        </a></p>
-
-        <p>
-          <a class="footer__link-facebook" href="https://www.facebook.com/" target="_blank">
-          Facebook
-        </a>
-
-      <a class="footer__link-twitter" href="https://twitter.com/" target="_blank">
-        Twitter
-      </a>
-      <a class="footer__link-instagram" href="https://www.instagram.com/" target="_blank">
-        Instagram
-      </a> 
-       </p>
-
-       </div>
-       
-     
-
-        <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="footer__menu1__text">
-          <div style="padding-top: 23px;">Об UberEats</div>
-          <div style="padding-top: 23px;">Станьте партнёром по доставке</div>
-          <div style="padding-top: 23px;">Станьте парнёром-рестораном</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="footer__menu1__text">
-          <div style="padding-top: 23px;">Все города</div>
-          <div style="padding-top: 23px;">Цены</div>
-          <div style="padding-top: 23px;">Помощь</div>
-          <div style="padding-top: 23px;">FAQs</div>
-        </div>
-      </div>
-
-    </div>
- 
-    <div class="row footer__play around-xs">
-      <div class="col-lg-4 col-md-4 col-sm-1 "></div>
-        <div class="col-lg-2 col-md-2 col-sm-5 ">
-        <a href="https://apps.apple.com/us/app/uber-eats-food-delivery/id1058959277" target="_blank">
-          <div class="App_Store"></div>
-        </a>
-        </div>
-      
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <a href="https://play.google.com/store/apps/details?id=com.ubercab.eats&hl=ru&gl=US" target="_blank">
-        <div class="Google_play"></div>   
-      </a>  
-        </div>   
-  </div>
-<hr>
+@media screen and (max-width: 425px){
+  header__sign-in{
+     margin:16px 16px 0 0;
+  }}
+  @media screen and (max-width: 425px){
+  header__basket{
+     display:none;
+  }}
+  body{
+  display: block;
+  }
+  .wrapper{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  }
+  .container{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  /*HEADER*/
+  .header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 1000;
+  }
+  .header__content{
+    height: 72px;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 0px 0px 16px rgb(38 38 38 / 16%);
+  }
   
-     <div class="row footer__contact">
-        <div class="col-lg-4 col-md-4 col-sm-12" style="font-size: 11px; padding-bottom: 34px ;"> 
-          © 2017 Uber Technologies Inc.
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12" style="font-size: 11px;  padding-bottom: 34px ;"> 
-          Обработка персональных данных
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12" style="font-size: 11px;  padding-bottom: 34px ;">  
-          Пользовательское соглашение
-        </div>
-      <div>
-        
-      
-    </div>
-    </div>
-    </div>
-  <!--FOOTER-->
+  .header__body{
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+  }
+  .header__logo{
+    margin:28px 0 0 -1px;
+  }
+  .header__logo img{
+    width: 119.23px;
+    height: 12.31px;
+  }
+  .header__logo img:hover{
+    width: 123px;
+    height: 14px;
+  }
+  .header__sign-in{
+    padding-top: 16px;
+  }
+  .header__sign-in img{
+    width: 78px;
+    height: 40px;
+  }
+  .header__sign-in img:hover{
+    width: 80px;
+    height: 42px;
+    background-color: #59bd5ba4;
+  }
+  .header__items{
+    display: flex;
+  }
+  
+  .header__basket{
+    margin:25px 15px 0 0;
+    padding-left: 27px;
+    
+  }
+  .header__basket img{
+    width: 19px;
+    height: 22px;
+  }
+  .header__basket img:hover{
+    width: 21px;
+    height: 24px;
+  }
+  /*HEADER*/
+  /*SEARCH*/
+  .search{
+    margin: 128px auto 0;
+    height: 24px;
+  }
+  .search__form{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+  }
+  .search__form input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626262;
+    opacity: 0.5;
+  }
+  /*SEARCH*/
+  /*REST*/
+  .rest{
+    margin-top:56px;
+  }
+  .rest .title__rest{
+    font-size: 22px;
+  }
+  .rest .title__rest:hover{
+    font-size: 22px;
+    text-shadow: rgba(117, 117, 117, 0.3) 0 0 2px;
+    color:#59bd5b;
+  }
+  .between-xs {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top:16px;
+  }
+  .col-xs-12 {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .row {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+  }
+  
+  .rest .card {
+    padding: 0;
+    margin: 0;
+    transition: transform 0.1s linear;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+  }
+  .rest .card .title{
+    margin-top:16px;
+    font-size: 16px;
+    color:#1D1D1D;
+ } 
+ .rest .card .title:hover{
+  margin-top:16px;
+  font-size: 16px;
+  color:#1D1D1D;
+  text-shadow: #59bd5b 0 0 6px;
+}
+  .rest .card .title1{
+    
+    font-size: 14px;
+    color:#1D1D1D;
+    
+  }
+  .rest .card .title1:hover{
+    
+    font-size: 14px;
+    color:#1D1D1D;
+    text-shadow: #59bd5b 0 0 6px; 
+  }
+  .card .title2 {
+    margin-bottom:20px;
+    color:#1D1D1D;
+    font-size: 13px;
+   
+  }
+  .card .title2:hover {
+    margin-bottom:20px;
+    color:#1D1D1D;
+    font-size: 13px;
+    text-shadow: #59bd5b 0 0 6px; 
+  }
+  .rest .card-image img {
+    width: 100%;
+    height: auto;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+   -webkit-transition: all 1s ease-out;
+  }
+  .rest .card-image img:hover {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
 
-  <!--BUTTON UP-->  
-    <div class="UP" >
-      <div class="button__up">
-        <a href="#"target="_self">
-      <img src="up.png" alt="up">
-    </a>
-      </div>
-    </div>
-  <!--BUTTON UP-->  
-  <!--MAIN-->
-  </body>
-</html>
+  /*REST*/
+  /*FOOTER*/
+  .footer{
+    background: #262626;
+    width: 100%;
+    color:#fff;
+    min-height: 552px;;
+  }
+  .footer__header img{
+    margin-top: 62px;
+    padding-left: 10px;
+    width: 190.77px;
+    height: 19.69px;
+  }
+  .footer .container hr {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    size: 1px;
+    margin-top: 40.31px;
+    margin-bottom: 32px;
+  }
+  .hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+  }
+  .footer__menu {
+    color: #fff;
+    padding-top: 32px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #979797;
+  }
+  .footer__select-item {
+    background-color: #3b3b3b;
+    color: #fff;
+    font-size: 13px;
+    padding: 12px 128px 12px 48px;
+    background-image: url('world.png');
+    background-size: 15.72px auto;
+    background-repeat: no-repeat;
+    background-position: 7% center;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+    font: 400 13.3333px Arial;
+  }
+  option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+  }
+
+  
+  .search__link {
+    color: #fff;
+    text-decoration: none;
+  }
+  .search__link-sharp {
+    color: #49A144;
+    margin-bottom: 17px;
+  }
+  .p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .footer__link-facebook {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 0;
+    background-image: url('facebook.png');
+    background-size: 24px auto;
+  }
+  .footer__link-twitter {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 0;
+    background-image: url('twitter.png');
+    background-size: 24px auto;
+  }
+  .footer__link-instagram {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 0;
+    background-image: url('instagram.png');
+    background-size: 24px auto;
+  }
+  .footer__play{
+    margin-top: 40px;
+  }
+  .App_Store{
+    display: inline-block;
+    width:120.66px;
+    height: 40px;
+    font-size: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('App_Store.png');
+    background-size: 120.66px auto;
+  }
+  .Google_play{
+    display: inline-block;
+    width:135px;
+    height: 40px;
+    font-size: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('Google_play.png');
+    background-size: 135px auto;
+  }
+  .footer__contact{
+  margin-top: 40px;
+  }
+  /*FOOTER*/
+  /*BUTTON UP*/
+  .button__up{
+    position:fixed;
+    right:13px;
+    bottom:13px;
+  }
+
+  .button__up img{
+   width: 80px;
+  }
+  .button__up img:hover{
+    width: 83px;
+    opacity: 80%;
+  }
+/*BUTTON UP*/
